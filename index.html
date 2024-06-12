@@ -279,7 +279,7 @@
 
       <section id="adiciona-produtos">
         <h2>ADICIONAR PRODUTO:</h2>
-        <form method="post" enctype="multipart/form-data" data-formulario>
+        <form method="POST" enctype="multipart/form-data" data-formulario>
           <div class="adiciona-produtos__container">
             <div class="adiciona-produtos__container--dados">
               <input
@@ -288,29 +288,37 @@
                 name="nome"
                 id="nome"
                 placeholder="nome..."
+                minlength="3"
+                maxlength="30"
                 required
               />
               <input
                 class="adiciona-produtos__container--input"
-                type="text"
+                type="number"
                 name="valor"
                 id="valor"
                 placeholder="valor..."
+                min="1.00"
+                max="4000.00"
                 required
               />
-              <input
-                class="adiciona-produtos__container--input"
-                type="file"
-                name="imagem"
-                id="imagem"
-                accept="image/*"
-                placeholder="imagem..."
-                required
-              />
+              <div class="container--dados-imagem">
+                <input
+                  class="adiciona-produtos__container--input"
+                  type="file"
+                  name="imagem"
+                  id="imagem"
+                  accept="image/*"
+                  placeholder="imagem..."
+                  required
+                />
+                <label for="imagem">Anexar</label>
+                <span class="nome-imagem">Anexe uma imagem</span>
+              </div>
             </div>
 
             <div class="adiciona-produtos__container--botoes">
-              <button type="submit">Guardar</button>
+              <button type="submit">Adicionar</button>
               <button type="button">Limpar</button>
             </div>
           </div>
@@ -328,6 +336,7 @@
       </section>
     </footer>
 
+    <script src="js/anexarImagem.js"></script>
     <script src="js/script.js"></script>
   </body>
 </html>

@@ -152,6 +152,14 @@ section#adiciona-produtos
   > form
   > div.adiciona-produtos__container
   > div.adiciona-produtos__container--dados
+  > div.container--dados-imagem {
+  display: flex;
+}
+
+section#adiciona-produtos
+  > form
+  > div.adiciona-produtos__container
+  > div.adiciona-produtos__container--dados
   > input.adiciona-produtos__container--input {
   width: 100%;
 
@@ -179,10 +187,36 @@ section#adiciona-produtos
   > form
   > div.adiciona-produtos__container
   > div.adiciona-produtos__container--dados
-  > input.adiciona-produtos__container--input[type="file"] {
-  padding: 0px;
-  border: 0;
-  border-radius: 0;
+  > div.container--dados-imagem {
+  display: flex;
+  gap: 10px;
+
+  align-items: center;
+}
+
+section#adiciona-produtos
+  > form
+  > div.adiciona-produtos__container
+  > div.adiciona-produtos__container--dados
+  > div.container--dados-imagem
+  > input#imagem {
+  display: none;
+}
+
+section#adiciona-produtos
+  > form
+  > div.adiciona-produtos__container
+  > div.adiciona-produtos__container--dados
+  > div.container--dados-imagem
+  > label {
+  text-align: center;
+  cursor: pointer;
+
+  background-color: var(--secundaria);
+  color: white;
+
+  padding: 10px 20px;
+  border-radius: 5px;
 }
 
 section#adiciona-produtos
