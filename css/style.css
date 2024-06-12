@@ -1,0 +1,88 @@
+:root {
+  --principal: #5d04d9;
+  --secundaria: #03318c;
+  --tercearia: #9303a6;
+  --texto: #000000;
+  --avisos: #8c0375;
+  --fundo: #ffffff;
+  --fonte-principal: "IBM Plex Mono", monospace;
+  --fonte-secundaria: "Press Start 2P", system-ui;
+}
+
+body {
+  background-color: var(--fundo);
+  font-family: var(--fonte-principal);
+  color: var(--texto);
+}
+
+section > h2 {
+  font-family: var(--fonte-secundaria);
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+
+  padding: 50px 30px;
+}
+
+/* ########## Menu ########## */
+section#menu {
+  display: flex;
+  justify-content: center;
+
+  padding: 20px 0;
+
+  background-color: var(--principal);
+  color: var(--fundo);
+  box-shadow: 0px 7px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* ########## Produtos ########## */
+section#produtos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+
+  padding: 60px 40px;
+}
+
+section#produtos
+  > div.produtos__container
+  > div.produtos__container--produto
+  > div.produto__card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  padding: 10px;
+
+  background-color: var(--principal);
+  color: #ffffff;
+  box-shadow: -5px 5px 4px rgba(0, 0, 0, 0.25);
+  border: #000000 3px solid;
+  border-radius: 10px;
+}
+
+section#produtos
+  > div.produtos__container
+  > div.produtos__container--produto
+  > div.produto__card
+  > div.produto__card--preco-excluir {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ########## Adicionar Produtos ########## */
+section#adiciona-produtos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+
+  padding: 60px 40px;
+}

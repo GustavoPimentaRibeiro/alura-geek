@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/tablet.css" />
+    <title>AluraGeek</title>
+  </head>
+  <body class="all">
+    <header>
+      <section id="menu">
+        <img src="assets/images/logo.svg" alt="Logo do AluraGeek" />
+      </section>
+    </header>
+
+    <main>
+      <section id="produtos">
+        <h2>MEUS PRODUTOS:</h2>
+        <div class="produtos__container">
+          <div class="produtos__container--produto">
+            <!-- Aqui serão carregados os produtos -->
+            <div class="produto__card">
+              <img
+                class="produto__card--imagem"
+                src="assets/images/storm.svg"
+                alt="Imagem da cabeça de um Storm Tropper"
+              />
+              <p class="produto__card--descricao">Stormtropper</p>
+              <div class="produto__card--preco-excluir">
+                <p class="produto__card--preco">$ 60,00</p>
+                <img src="assets/images/excluir.svg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="adiciona-produtos">
+        <h2>ADICIONAR PRODUTO:</h2>
+        <form method="post" enctype="multipart/form-data" data-formulario>
+          <div class="adiciona-produtos__container">
+            <div class="adiciona-produtos__container--dados">
+              <input
+                class="adiciona-produtos__container--input"
+                type="text"
+                name="nome"
+                id="nome"
+                placeholder="nome..."
+              />
+              <input
+                class="adiciona-produtos__container--input"
+                type="text"
+                name="valor"
+                id="valor"
+                placeholder="valor..."
+              />
+              <input
+                class="adiciona-produtos__container--input"
+                type="image"
+                name="imagem"
+                id="imagem"
+                accept="image/*"
+                placeholder="imagem..."
+              />
+            </div>
+
+            <div class="adiciona-produtos__container--botoes">
+              <button type="submit">Guardar</button>
+              <button type="button">Limpar</button>
+            </div>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <section id="rodape">
+        [Logo do AluraGeek] [Desenvolvido por] [Propaganda Alura Latam]
+      </section>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
