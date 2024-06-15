@@ -76,6 +76,8 @@ section#produtos
   > div.produtos__container
   > div.produtos__container--produto
   > div.produto__card {
+  max-width: 200px;
+
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -94,9 +96,32 @@ section#produtos
   > div.produtos__container
   > div.produtos__container--produto
   > div.produto__card
+  > img.produto__card--imagem {
+  width: 174px;
+  height: 176px;
+  border: #000000 3px solid;
+  border-radius: 5px;
+}
+
+section#produtos
+  > div.produtos__container
+  > div.produtos__container--produto
+  > div.produto__card
   > p.produto__card--descricao {
   font-size: 15px;
   line-height: 19px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+section#produtos
+  > div.produtos__container
+  > div.produtos__container--produto
+  > div.produto__card
+  > div.produto__card--preco-excluir {
+  display: flex;
+  justify-content: space-between;
 }
 
 section#produtos
@@ -115,9 +140,9 @@ section#produtos
   > div.produtos__container
   > div.produtos__container--produto
   > div.produto__card
-  > div.produto__card--preco-excluir {
-  display: flex;
-  justify-content: space-between;
+  > div.produto__card--preco-excluir
+  > img.excluir {
+  cursor: pointer;
 }
 
 /* ########## Adicionar Produtos ########## */
