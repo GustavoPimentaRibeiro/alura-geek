@@ -1,0 +1,70 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Ícone Alura",
+      "preco": 100,
+      "imagem": "https://s.staticz.com.br/app/img/partner/filled/cupom-alura.png"
+    },
+    {
+      "id": 2,
+      "nome": "Ícone Oracle",
+      "preco": 50,
+      "imagem": "https://lh3.googleusercontent.com/dfQmUML1sabMKbYeV6nX10CvopmyX6NE0Wnj4xC0aEz6aTlna6_chVoKxejw58JTWr6Ulx8Dj0l9HYgpEHZSUD9Wbw=s128-rj-sc0x00ffffff"
+    },
+    {
+      "id": 3,
+      "nome": "Ícone Alura",
+      "preco": 100.1,
+      "imagem": "https://s.staticz.com.br/app/img/partner/filled/cupom-alura.png"
+    },
+    {
+      "id": 4,
+      "nome": "Ícone Oracle",
+      "preco": 50,
+      "imagem": "https://lh3.googleusercontent.com/dfQmUML1sabMKbYeV6nX10CvopmyX6NE0Wnj4xC0aEz6aTlna6_chVoKxejw58JTWr6Ulx8Dj0l9HYgpEHZSUD9Wbw=s128-rj-sc0x00ffffff"
+    },
+    {
+      "id": 5,
+      "nome": "Ícone Alura",
+      "preco": 100,
+      "imagem": "https://s.staticz.com.br/app/img/partner/filled/cupom-alura.png"
+    },
+    {
+      "id": 6,
+      "nome": "Ícone Oracle",
+      "preco": 50,
+      "imagem": "https://lh3.googleusercontent.com/dfQmUML1sabMKbYeV6nX10CvopmyX6NE0Wnj4xC0aEz6aTlna6_chVoKxejw58JTWr6Ulx8Dj0l9HYgpEHZSUD9Wbw=s128-rj-sc0x00ffffff"
+    },
+    {
+      "id": 7,
+      "nome": "Ícone Alura",
+      "preco": 100,
+      "imagem": "https://s.staticz.com.br/app/img/partner/filled/cupom-alura.png"
+    },
+    {
+      "id": 8,
+      "nome": "Ícone Oracle",
+      "preco": 50,
+      "imagem": "https://lh3.googleusercontent.com/dfQmUML1sabMKbYeV6nX10CvopmyX6NE0Wnj4xC0aEz6aTlna6_chVoKxejw58JTWr6Ulx8Dj0l9HYgpEHZSUD9Wbw=s128-rj-sc0x00ffffff"
+    },
+    {
+      "id": 9,
+      "nome": "Ícone Alura",
+      "preco": 100,
+      "imagem": "https://s.staticz.com.br/app/img/partner/filled/cupom-alura.png"
+    },
+    {
+      "id": 10,
+      "nome": "Ícone Oracle",
+      "preco": 50.2,
+      "imagem": "https://lh3.googleusercontent.com/dfQmUML1sabMKbYeV6nX10CvopmyX6NE0Wnj4xC0aEz6aTlna6_chVoKxejw58JTWr6Ulx8Dj0l9HYgpEHZSUD9Wbw=s128-rj-sc0x00ffffff"
+    },
+    {
+      "id": 11,
+      "nome": "Ícone Alura",
+      "preco": 100.7,
+      "imagem": "https://s.staticz.com.br/app/img/partner/filled/cupom-alura.png"
+    }
+  ]
+}

@@ -1,3 +1,6 @@
+import conectaApi from "./conectarApi.js";
+import carregaProdutos from "./carregaProdutos.js";
+
 const formulario = document.querySelector("[data-formulario]");
 const listaDeProdutos = document.querySelector("[data-lista-produtos]");
 
@@ -17,27 +20,11 @@ formulario.addEventListener("submit", async (e) => {
   alert("O item foi adicionado com sucesso!");
 });
 
-async function montaCard(listaProduto, listaDeProdutos, imagemURL) {
-  listaDeProdutos.innerHTML += `
-    <div class="produto__card">
-      <img
-        class="produto__card--imagem"
-        src="${imagemURL}"
-        alt=""
-      />
-      <p class="produto__card--descricao" title="${listaProduto.nome}">${
-    listaProduto.nome
-  }</p>
-      <div class="produto__card--preco-excluir">
-        <p class="produto__card--preco" title="$ ${listaProduto.valor
-          .toString()
-          .replace(".", ",")}">$ ${listaProduto.valor
-    .toString()
-    .replace(".", ",")}</p>
-        <img class="excluir" src="assets/images/excluir.svg" alt="" title="Excluir produto" />
-      </div>
-    </div>
-  `;
+async function produtosListados() {
+  const produtos = await conectaApi.listaProdutos();
+  console.log(produtos);
+  return produtos;
 }
 
+carregaProdutos.carregaProdutos();
 carregarBotoesExcluir();
