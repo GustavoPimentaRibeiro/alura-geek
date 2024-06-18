@@ -1,12 +1,6 @@
-async function carregarBotoesExcluir() {
-  const botaoExcluir = document.querySelectorAll(".excluir");
-  botaoExcluir.forEach((botao) =>
-    botao.addEventListener("click", (event) => {
-      event.preventDefault();
+import conectaApi from "./conectarApi.js";
 
-      const avoBotaoExcluir = event.target.parentNode.parentNode;
-      avoBotaoExcluir.remove();
-      alert("O item foi excluido com sucesso!");
-    })
-  );
+async function excluirProduto(id) {
+  const produto = await conectaApi.deletaProduto(id);
+  console.log(produto);
 }

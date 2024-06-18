@@ -9,7 +9,10 @@ async function carregaProdutos() {
   });
 }
 
-function montaCard(produto, divListaDeProdutos) {
+async function montaCard(produto, divListaDeProdutos) {
+  produto.preco =
+    produto.preco != Number ? parseFloat(produto.preco) : produto.preco;
+
   divListaDeProdutos.innerHTML += `
     <div class="produto__card">
         <img
@@ -25,10 +28,12 @@ function montaCard(produto, divListaDeProdutos) {
               .toString()
               .replace(".", ",")}">
                 $ ${produto.preco.toFixed(2).toString().replace(".", ",")}</p>
-            <img class="excluir" src="assets/images/excluir.svg" alt="" title="Excluir produto" />
+            <img class="excluir" src="assets/images/excluir.svg" alt="Ícone de lixeira" title="Excluir produto" onclick="excluirProduto(${
+              produto.id
+            })" />
         </div>
     </div>
   `;
 }
 
-export default { carregaProdutos };
+export default { carregaProdutos, montaCard };
