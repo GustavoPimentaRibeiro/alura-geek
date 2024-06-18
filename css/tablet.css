@@ -1,0 +1,15 @@
+@media screen and (max-width: 768px) {
+  main {
+    flex-direction: column-reverse;
+  }
+
+  /* ########## Produtos ########## */
+  section#produtos {
+    width: 100%;
+  }
+
+  /* ########## Adicionar Produtos ########## */
+  section#adiciona-produtos {
+    width: 100%;
+  }
+}
