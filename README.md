@@ -7,7 +7,7 @@
 
 ## Objetivos
 
-Repositório criado para concluir o desafio de front-end do programa ONE([Alura](https://www.alura.com.br) + [Oracle](https://www.oracle.com/br/)).
+Repositório criado para concluir o desafio de front-end do programa ONE(<a src="https://www.alura.com.br" target="blank">Alura</a> + <a href="https://www.oracle.com/br/" target="blank">Oracle</a>).
 
 ## Funcionalidades do projeto
 
@@ -17,7 +17,7 @@ Repositório criado para concluir o desafio de front-end do programa ONE([Alura]
 
 ## Como utilizar o projeto
 
-- Utilize o comando `npm install` para instalar as dependências e instalar o `json-server`. Ao terminar de instalar, crie um arquivo `db.json` e utilize o comando `json-server --watch db.json` para iniciar uma mini-API com endpoints definidos no arquivo `db.json`. Para mais informações dê uma olhada neste site relacionado ao [json-server](https://www.fabricadecodigo.com/json-server/).
+- Utilize o comando `npm install` para instalar as dependências e instalar o `json-server`. Ao terminar de instalar, crie um arquivo `db.json` e utilize o comando `json-server --watch db.json` para iniciar uma mini-API com endpoints definidos no arquivo `db.json`. Para mais informações dê uma olhada neste site relacionado ao <a href="https://www.fabricadecodigo.com/json-server/" target="blank">json-server</a>.
 
 ## Linguagens utilizadas
 
