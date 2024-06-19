@@ -1,9 +1,9 @@
 # Alura Geek
 
 ![Badge Concluído](http://img.shields.io/static/v1?label=STATUS&message=CONCLUÍDO&color=GREEN&style=for-the-badge)
-![Badge JavaScript](http://img.shields.io/static/v1?message=JavaScript&color=YELLOW&style=for-the-badge)
-![Badge HTML5](http://img.shields.io/static/v1?message=HTML5&color=ORANGE&style=for-the-badge)
-![Badge CSS3](http://img.shields.io/static/v1?message=CSS3&color=BLUE&style=for-the-badge)
+![Badge JavaScript](https://img.shields.io/badge/JavaScript-E7E40E)
+![Badge HTML5](https://img.shields.io/badge/HTML5-D46114)
+![Badge CSS3](https://img.shields.io/badge/CSS3-03318C)
 
 ## Objetivos
 
