@@ -17,7 +17,7 @@ Repositório criado para concluir o desafio de front-end do programa ONE([Alura]
 
 ## Como utilizar o projeto
 
-- Utilize o comando `npm install` para instalar as dependências e instalar o `json-server`. Ao terminar de instlar, utilize o comando `json-server --watch db.json` para iniciar uma mini-API com endpoints definidiso no arquivo `db.json`.
+- Utilize o comando `npm install` para instalar as dependências e instalar o `json-server`. Ao terminar de instlar, utilize o comando `json-server --watch db.json` para iniciar uma mini-API com endpoints definidos no arquivo `db.json`.
 
 ## Linguagens utilizadas
 
