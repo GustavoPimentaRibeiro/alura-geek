@@ -38,4 +38,4 @@ LinkedIn: https://www.linkedin.com/in/gustavo-pimenta-dev/
 
 ## Link de acesso
 
-Acesse o projeto com o [Link do Projeto](https://gustavopimentaribeiro.github.io/challenge-one-portfolio/)
+Acesse o projeto com o [Link do Projeto](https://gustavopimentaribeiro.github.io/alura-geek/)
