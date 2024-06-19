@@ -7,7 +7,7 @@
 
 ## Objetivos
 
-Repositório criado para concluir o desafio de front-end do programa ONE(<a src="https://www.alura.com.br" target="blank">Alura</a> + <a href="https://www.oracle.com/br/" target="blank">Oracle</a>).
+Repositório criado para concluir o desafio de front-end do programa ONE(<a href="https://www.alura.com.br" target="blank">Alura</a> + <a href="https://www.oracle.com/br/" target="blank">Oracle</a>).
 
 ## Funcionalidades do projeto
 
