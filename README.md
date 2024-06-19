@@ -15,6 +15,10 @@ Repositório criado para concluir o desafio de front-end do programa ONE([Alura]
 - `Funcionalidade 2`: Remover produtos
 - `Funcionalidade 3`: Limpar campos de inserção de produto
 
+## Como utilizar o projeto
+
+- Utilize o comando `npm install` para instalar as dependências e instalar o `json-server`. Ao terminar de instlar, utilize o comando `json-server --watch db.json` para iniciar uma mini-API com endpoints definidiso no arquivo `db.json`.
+
 ## Linguagens utilizadas
 
 - `HTML 5`
